@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+:root {
+    --federal-blue: #03045eff;
+    --marian-blue: #023e8aff;
+    --honolulu-blue: #0077b6ff;
+    --blue-green: #0096c7ff;
+    --pacific-cyan: #00b4d8ff;
+    --vivid-sky-blue: #48cae4ff;
+    --non-photo-blue: #90e0efff;
+    --non-photo-blue-2: #ade8f4ff;
+    --light-cyan: #caf0f8ff;
+    --white: #ffffff;
+    --red: #ff0000;
+}
+
+body {
+    height: 100vh;
+    background: var(--federal-blue);
+    display: flex;
+    justify-content: center;
+}
+
+h1, h5{
+    color: var(--white);
+    letter-spacing: 0.75rem;
+    text-align: center;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.tareas, .container-lista ul li {
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    background-color: var(--white);
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+#input {
+    border: none;
+    font-size: 1.2rem;
+    width: 30rem;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#añadir {
+    border: none;
+    background-color: var(--white);
+    font-size: 1.5rem;
+    margin-right: 0.2rem;
+}
+
+li {
+    align-items: center;
+}
+
+#añadir:hover {
+    cursor: pointer;
+    color: var(--marian-blue);
+}
+
+.fa-delete-left:hover {
+    color: var(--red);
+    cursor: pointer;
+}
+
+
